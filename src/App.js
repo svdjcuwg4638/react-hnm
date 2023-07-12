@@ -18,7 +18,7 @@ import PrivateRoute from './route/PrivateRoute';
 // 6. 로그인을 하면 로그아웃이 보이고 로그아웃을 하면 로그인이 보인다
 // 7. 상품을 검색할 수 있다.
 function App() {
-  const[authenticate, setAuthenticate] = useState(true)
+  const[authenticate, setAuthenticate] = useState(false)
   useEffect(()=>{
     console.log("Aaaa",authenticate);
   },[authenticate])
